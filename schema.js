@@ -38,6 +38,10 @@ const AuthorType = new GraphQLObjectType({
   name: 'Author',
   description: '...',
   fields: () => ({
+    id: {
+      type: GraphQLInt,
+      resolve: getXML('id')
+    },
     name: {
       type: GraphQLString,
       resolve: getXML('name')
