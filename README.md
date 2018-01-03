@@ -22,10 +22,10 @@ This will start a GraphiQL server at `http://localhost:4000/graphql` where you c
     books {
       id,
       title,
-      isbn
+      isbn,
       authors {
         id,
-        name,
+        name
       }
     }
   }
