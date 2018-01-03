@@ -1,4 +1,4 @@
-# A simple GraphQL wraper for the Goodreads API
+# A simple GraphQL wrapper for the Goodreads API
 
 Seeing as it was only for learning/concept purposes, this only wraps the authors endpoint.
 
