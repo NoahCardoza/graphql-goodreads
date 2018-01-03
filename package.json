@@ -1,0 +1,32 @@
+{
+  "name": "graphql-goodreads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dataloader": "^1.3.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahCardoza/graphql-goodreads.git"
+  },
+  "keywords": [],
+  "author": "Noah Cardoza <noahcardoza@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoahCardoza/graphql-goodreads/issues"
+  },
+  "homepage": "https://github.com/NoahCardoza/graphql-goodreads#readme"
+}
