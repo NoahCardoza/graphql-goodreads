@@ -8,10 +8,16 @@ const {
 
 const { getXML } = require('./helpers')
 
+const getID = getXML('id')
+
 const BookType = new GraphQLObjectType({
   name: 'Book',
   description: '...',
   fields: () => ({
+    id: {
+      type: GraphQLInt,
+      resolve: getID
+    },
     title: {
       type: GraphQLString,
       resolve: (book) => {
@@ -40,7 +46,7 @@ const AuthorType = new GraphQLObjectType({
   fields: () => ({
     id: {
       type: GraphQLInt,
-      resolve: getXML('id')
+      resolve: getID
     },
     name: {
       type: GraphQLString,
